@@ -1,0 +1,30 @@
+.Sidebar_main{
+ height: 100%;  
+ width: 20%; 
+ background-color: #ececec;
+ z-index: 1;
+ position: fixed;
+ top: 0;
+ left: 0;
+ transition: 0.5s;
+ overflow-x: hidden;
+ box-shadow: 5px 1px 8px 1px rgb(204, 236, 172);
+}
+.Sidebar_main_hidden{
+ height: 100%;  
+ width: 0%; 
+ background-color: blue;
+ z-index: 1;
+ position: fixed;
+ top: 0;
+ left: 0;
+ transition: 0.5s;
+ overflow-x: hidden;
+}
+.Sidebar_main_close_button{
+     position:absolute;
+      top: 0;
+     right:5%;
+     font-weight:bolder;
+     cursor:pointer 
+}
